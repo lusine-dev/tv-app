@@ -1,0 +1,22 @@
+:root {
+  --white-color: #f1f1f1;
+  --black-color: #0c0c0c;
+  --black-bg-color: #040404;
+}
+
+.tv-app {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "main-menu main-featured-video"
+    "main-menu trending-now-section";
+
+  height: 100vh;
+
+  background-color: var(--black-bg-color);
+
+  color: var(--white-color);
+
+  font-family: "Tajawal", sans-serif;
+}
